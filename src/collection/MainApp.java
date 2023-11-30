@@ -1,3 +1,5 @@
+package collection;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -6,7 +8,7 @@ import java.util.stream.Collectors;
 
 public class MainApp {
     public static void main(String[] args) {
-//        MyLinkedList myLinkedList = new MyLinkedList();
+//        collection.MyLinkedList myLinkedList = new collection.MyLinkedList();
 //        myLinkedList.add(1);
 //        myLinkedList.add(2);
 //        myLinkedList.add(3);
@@ -18,7 +20,7 @@ public class MainApp {
 //        myLinkedList.remove(1);
 //        System.out.println(myLinkedList);
 //
-//        MyArrayList<Integer> myArrayList = new MyArrayList<>();
+//        collection.MyArrayList<Integer> myArrayList = new collection.MyArrayList<>();
 //        myArrayList.add(2);
 //        System.out.println(myArrayList);
 //

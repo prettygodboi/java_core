@@ -1,3 +1,5 @@
+package collection;
+
 import java.io.ObjectStreamClass;
 import java.util.Arrays;
 import java.util.Objects;
