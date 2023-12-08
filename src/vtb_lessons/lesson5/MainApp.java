@@ -10,5 +10,10 @@ public class MainApp {
             hm.put(string, hm.getOrDefault(string, 0) + 1);
         }
         System.out.println(hm);
+        PhoneBook phoneBook = new PhoneBook();
+        phoneBook.add("Dima", "666");
+        phoneBook.add("Vasya", "665");
+        phoneBook.get("Dima");
+        phoneBook.get("Vasya");
     }
 }
