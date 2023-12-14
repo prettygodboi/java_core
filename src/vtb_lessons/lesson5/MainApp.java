@@ -9,7 +9,7 @@ public class MainApp {
         for (String string : strings) {
             hm.put(string, hm.getOrDefault(string, 0) + 1);
         }
-        System.out.println(hm);
+        System.out.println(hm.entrySet().stream().max(Map.Entry.comparingByValue()).get());
         PhoneBook phoneBook = new PhoneBook();
         phoneBook.add("Dima", "666");
         phoneBook.add("Vasya", "665");
